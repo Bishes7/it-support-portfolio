@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Pin the project root so a stray lockfile higher up the drive isn't picked up.
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;
