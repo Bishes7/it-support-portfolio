@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 const title = "Bishes Adhikari — IT Support | Launceston, Tasmania";
 const description =
-  "IT Support professional in Launceston, TAS. Microsoft 365, Active Directory, Azure and Windows troubleshooting. AZ-900 & MS-900 certified, full work rights, available immediately.";
+  "IT Support professional in Launceston, TAS. Microsoft 365, Active Directory, Azure and Windows troubleshooting. AZ-900, MS-900 & SC-900 certified, full work rights, available immediately.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

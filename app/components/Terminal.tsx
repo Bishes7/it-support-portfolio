@@ -8,7 +8,7 @@ const OUTPUT: { key: string; value: string; accent?: boolean }[] = [
   { key: "name", value: "Bishes Adhikari" },
   { key: "role", value: "IT Support · Service Desk (L1/L2)" },
   { key: "location", value: "Launceston, TAS 🇦🇺" },
-  { key: "certs", value: "AZ-900 ✓  MS-900 ✓  AZ-104 …" },
+  { key: "certs", value: "AZ-900 ✓ MS-900 ✓ SC-900 ✓ AZ-104 …" },
   { key: "work_rights", value: "Full-time (485 visa)" },
   { key: "status", value: "● Available for immediate start", accent: true },
 ];

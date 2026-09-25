@@ -22,7 +22,7 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "2", label: "Microsoft certifications" },
+  { value: "3", label: "Microsoft certifications" },
   { value: "3", label: "Hands-on lab environments" },
   { value: "B.IT", label: "Bachelor of Information Technology" },
   { value: "Now", label: "Available for immediate start" },
@@ -295,6 +295,12 @@ export const certifications = [
     code: "MS-900",
     name: "Microsoft 365 Fundamentals",
     status: "Certified · Sep 2024",
+    done: true,
+  },
+  {
+    code: "SC-900",
+    name: "Microsoft Security, Compliance & Identity Fundamentals",
+    status: "Certified",
     done: true,
   },
   {

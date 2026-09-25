@@ -113,7 +113,7 @@ export default function Home() {
               <span className="inline-flex items-center gap-1.5"><Icon name="pin" className="h-4 w-4" />{profile.location}</span>
               <a href={profile.phoneHref} className="inline-flex items-center gap-1.5 transition-colors hover:text-white"><Icon name="phone" className="h-4 w-4" />{profile.phone}</a>
               <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 transition-colors hover:text-white"><Icon name="github" className="h-4 w-4" />GitHub</a>
-              <span className="inline-flex items-center gap-1.5"><Icon name="check" className="h-4 w-4 text-emerald-400" />AZ-900 · MS-900</span>
+              <span className="inline-flex items-center gap-1.5"><Icon name="check" className="h-4 w-4 text-emerald-400" />AZ-900 · MS-900 · SC-900</span>
               <span className="inline-flex items-center gap-1.5"><Icon name="check" className="h-4 w-4 text-emerald-400" />Driver&apos;s licence</span>
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function Home() {
               <Reveal delay={100}>
                 <p className="text-lg leading-relaxed text-slate-300">{profile.summary}</p>
                 <p className="mt-4 text-lg leading-relaxed text-slate-400">
-                  I hold AZ-900 and MS-900, am working towards AZ-104, and keep sharpening my skills in
+                  I hold AZ-900, MS-900 and SC-900, am working towards AZ-104, and keep sharpening my skills in
                   hands-on Azure, Microsoft 365 and Linux labs. I&apos;m based in Launceston with full work
                   rights and can start immediately.
                 </p>
@@ -419,7 +419,7 @@ export default function Home() {
         {/* ───────── Certifications ───────── */}
         <section id="certifications" className="mx-auto max-w-6xl scroll-mt-24 px-5 py-28">
           <SectionHeading eyebrow="certifications" title="Microsoft-certified, and levelling up." />
-          <div className="grid gap-5 md:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {certifications.map((c, i) => (
               <Reveal key={c.code} delay={i * 120}>
                 <div className={`card h-full p-7 ${c.done ? "" : "cert-pending"}`}>
